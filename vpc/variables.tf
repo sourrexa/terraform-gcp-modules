@@ -8,3 +8,7 @@ variable "auto_create_subnetworks" {
   type        = bool
   default     = false
 }
+variable "region" {
+  description = "The region where subnetworks will be created"
+  type        = string
+}
